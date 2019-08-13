@@ -1,0 +1,56 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+/* 万能清除法 */
+.clearfix:after { display: block; content: ""; width: 0; height: 0; visibility: hidden; clear: both; }
+
+[v-cloak] {
+  display: none;
+}
+
+::-webkit-scrollbar {
+  height: 10px;
+  width: 7px;
+  background: rgba(0, 0, 0, .1)
+}
+
+::-webkit-scrollbar:hover {
+  background: rgba(0, 0, 0, .2)
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, .3);
+  border-radius: 6px
+}
+
+::-webkit-scrollbar-thumb:hover {
+  box-shadow: inset 1px 1px 1px rgba(0, 0, 0, .25);
+  background-color: rgba(0, 0, 0, .4)
+}
+
+#app{
+  font-size: 14px;
+  width: 100vw;
+  height: 100vh;
+  background: url("../../img/底.png") no-repeat center / 100% 100%;
+  position: relative;
+
+//  模式1
+  .module-1{
+    .border {
+      width: 724px;
+      height: 568px;
+      background: url("../../img/border.png") no-repeat center / 100% 100%;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%,-50%);
+    }
+  }
+
+}

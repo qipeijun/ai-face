@@ -1,0 +1,20 @@
+{
+  "name": "ai-face",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "gulp"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.7.0",
+    "http-proxy-middleware": "^0.19.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.4.2",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.10.0"
+  }
+}
